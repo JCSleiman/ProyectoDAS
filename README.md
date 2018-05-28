@@ -11,8 +11,7 @@ Nuestra aplicación consiste en una serie de tablas que simulan varios zoológic
 Utilizamos el paquete Pony.ORM de python para la creación, modelado y mapeado de las tablas.
 
 ## *Imágenes*
-![](https://github.com/JCSleiman/ProyectoDAS/tree/master/Project/imagenes/diagrama1.png?raw=true)
-
+![alt text](https://raw.githubusercontent.com/JCSleiman/ProyectoDAS/master/Project/imagenes/diagrama1.png "Diagrama 1")
 
 ## *Referencias*
 * https://www.tutorialspoint.com/sqlite/index.htm
