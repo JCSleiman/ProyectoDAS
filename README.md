@@ -17,14 +17,17 @@ Utilizamos el paquete Pony.ORM de python para la creación, modelado y mapeado d
 ## *Diagrama de Clases*
 ![alt text](https://raw.githubusercontent.com/JCSleiman/ProyectoDAS/master/Project/imagenes/sup.png "Diagrama 2")
 
+## *Diagrama de componentes*
+![alt text](https://raw.githubusercontent.com/JCSleiman/ProyectoDAS/master/Project/imagenes/diag.png "Diagrama 3")
+
 ## *Referencias*
-### ° SQLite
+### > SQLite
 * https://www.tutorialspoint.com/sqlite/index.htm
-### ° Pony.ORM
+### > Pony.ORM
 * https://docs.ponyorm.com/
 * https://decodigoyalgomas.com/pony-orm-tutorial/
 * https://github.com/decodigoyalgomas/python-orms-examples/tree/pony
-### ° Estructuras
+### > Estructuras
 * https://guides.github.com/features/mastering-markdown/
 * https://www.w3schools.com/pHP/default.asp
 * https://www.w3schools.com/html/
