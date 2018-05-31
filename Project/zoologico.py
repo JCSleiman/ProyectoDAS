@@ -18,8 +18,8 @@ class Zoo(database.Entity):
     empleados = pony.Set("Empleados")
     animales = pony.Set("Animales")
 
-    ##def __repr__(self):
-    ##    return "".format(self.nickname, self.email)
+    def __repr__(self):
+        return "".format(self.nombre, self.lugar)
 ##########################################################################
 class Empleados(database.Entity):
 
@@ -28,8 +28,8 @@ class Empleados(database.Entity):
     rol = pony.Required(str, 50)
     zoo = pony.Required(Zoo)
 
-    #def __repr__(self):
-    #    return "".format(self.nombre, self.edad, self.rol)
+    def __repr__(self):
+        return "".format(self.nombre, self.edad, self.rol)
 ##########################################################################
 class Animales(database.Entity):
 
@@ -37,8 +37,8 @@ class Animales(database.Entity):
     meses = pony.Required(int)
     zoo = pony.Required(Zoo)
 
-    #def __repr__(self):
-    #    return "".format(self.nombre, self.edad, self.rol)
+    def __repr__(self):
+        return "".format(self.nombre, self.edad, self.rol)
 ##########################################################################
 # enciende el debug
 pony.sql_debug(True)
